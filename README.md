@@ -42,11 +42,11 @@ docker-compose up --build
 
 ### Registro de movimientos
 
-![Operación Movimiento](docs/OperaciónMovimiento.gif)
+![Operacion Movimiento](docs/operacion-movimiento.gif)
 
 ### Exportación de reportes
 
-![Exportación de Ingresos](docs/Exportación%20de%20Ingresos.gif)
+![Exportacion de Ingresos](docs/exportacion-ingresos.gif)
 
 ---
 
