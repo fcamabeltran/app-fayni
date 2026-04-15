@@ -1,0 +1,26 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+backend/venv/
+node_modules/
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+*.zip
+*.xlsx
+exportacion_20260316140821/
+exportacion_20260316140821 2/

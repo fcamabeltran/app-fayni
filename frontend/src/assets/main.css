@@ -1,0 +1,51 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  color: #1a1a2e;
+}
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 1.5rem;
+}
+
+.stat-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.stat-card .icon {
+  font-size: 2rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-card .value { font-size: 1.8rem; font-weight: 700; }
+.stat-card .label { font-size: 0.85rem; color: #6b7280; margin-top: 2px; }
+
+.chart-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.chart-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; color: #374151; }
+
+.ingreso  { color: #22c55e; }
+.egreso   { color: #ef4444; }
+.donacion { color: #6366f1; }
+.saldo    { color: #0ea5e9; }
